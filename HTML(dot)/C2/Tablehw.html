@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table | Project</title>
+    <style>
+        table,tr,td,th{
+            border: 3px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        .t4{
+            text-align: center;
+        }
+        .t1{
+            background-color:rgb(245, 242, 198);
+        }
+        .t2{
+            background-color:rgb(139, 170, 226);
+        }
+        .t3{
+            background-color: rgb(200, 237, 163);
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Time Table</caption>
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+               
+                
+            </tr>
+            <tr>
+                
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+                
+            </tr>
+            <tr>
+                
+                <th>Begin</th>
+                <th>End</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2" class="t1">8:00 A.M</td>
+                <td rowspan="2" class="t2">5:00 P.M</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                
+                <td>Validity:DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td class="t1">8:00 A.M</td>
+                <td class="t1">11:00 A.M</td>
+                <td rowspan="2" class="t4">XPath</td>
+            </tr>
+            <tr>
+                
+                <td class="t1">11:00 A.M</td>
+                <td class="t3">2:00 P.M</td>
+                
+            </tr>
+            <tr>
+                
+                <td class="t3">2:00 P.M</td>
+                <td class="t2">5:00 P.M</td>
+                <td class="t4">XSL Transformation</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td class="t1">8:00 A.M</td>
+                <td class="t3">12:00 P.M</td>
+                <td class="t4">XSL Formatting Object</td>
+            </tr>
+        </tbody>
+
+</body>
+</html>
